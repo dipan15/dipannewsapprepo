@@ -1,0 +1,8 @@
+<div class="nyt-sections">
+  <ul>
+      <li *ngFor="let section of allSections"
+      routerLink="/section/{{section}}"
+      routerLinkActive="active-section"
+      >{{section}}</li>
+  </ul>
+</div>
